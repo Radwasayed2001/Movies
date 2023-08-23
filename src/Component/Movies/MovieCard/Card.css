@@ -1,0 +1,9 @@
+.col .card {
+    height: 918px;
+    overflow: hidden;
+    position: relative;
+}
+.col .card .card-body{
+    overflow: hidden;
+    height: 30%;
+}

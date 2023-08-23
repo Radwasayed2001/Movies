@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+#myHome {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+.darkened-image.one {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-color: #7EBEC5;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.darkened-image.two {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-05.jpg);
+    background-color: #7EBEC5;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+.darkened-image.three {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-02.jpg);
+    background-color: #7EBEC5;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }

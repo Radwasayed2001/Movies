@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+#contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 4rem;
+}
+.contactForm{
+    height: 100vh;
+    width: 70%;
+    background: black;
+    color: white;
+    padding-top: 4rem;
+    padding-left: 10rem;
+    padding-right: 2rem;
+}
+.contactForm h3 {
+    color: red;
+}
+.contactForm h1 {
+    font-weight: 300;
+    font-size: 6rem;
+}
+.contactForm h1 span{
+    font-weight: bold;
+}
+.contactForm .row{
+    margin-top: 5rem !important;
+}
+.contactForm h4{
+    font-size: 1.2rem;
+    color: blue;
+}
+.contactForm h2{
+    font-size: 1.6rem;
+}
+@media only screen and (min-width: 500px) and (max-width: 990px)  {
+    .contactForm{
+        width: 100%;
+        padding-left: 2rem;
+        
+    }
+    .contactForm h1{
+        font-size: 5rem;
+    }
+    .contactForm h4{
+        font-size: 1rem;
+    }
+    .contactForm h2{
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 500px)  {
+    .contactForm{
+        width: 100%;
+        padding-left: 1rem;
+        
+    }
+    .contactForm h1{
+        font-size: 4rem;
+    }
+    .contactForm h4{
+        font-size: 0.8rem;
+    }
+    .contactForm h2{
+        font-size: 1.2rem;
+    }
+}

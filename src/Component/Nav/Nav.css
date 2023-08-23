@@ -1,0 +1,53 @@
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+nav.navbar{
+    position: fixed;
+    z-index: 999;
+    height: 4rem;
+}
+#fav {
+    position: fixed;
+    min-width: 1.2rem;
+    height: 1.4rem;
+    top: 0.7rem;
+    right: 21rem;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    padding: 0.25rem;
+}
+#cart {
+    position: fixed;
+    min-width: 1.2rem;
+    height: 1.4rem;
+    top: 0.7rem;
+    right: 4.6rem;
+    border-radius: 50%;
+    color: white;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    padding: 0.25rem;
+}
+@media screen and (max-width: 993px) {
+    #fav{
+        position: relative;
+        top: -2.2rem;
+        right: -1.5rem;
+        }
+    #cart{
+        position: relative;
+        top: -2.4rem;
+        right: -0.8rem;
+         }
+    
+  }

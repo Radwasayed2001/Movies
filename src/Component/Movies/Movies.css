@@ -1,0 +1,17 @@
+
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 90%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-color: #7EBEC5;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .first-section h1 {
+    font-size: 5rem;
+  }
+  .first-section h3 {
+    font-size: 1.1rem;
+    color: #f9002b!important;
+  }
